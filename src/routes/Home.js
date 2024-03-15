@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroImg from '../components/HeroImg';
 import Footer from '../components/Footer';
+import Chatbot from '../components/Chatbot';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
 
       <Navbar />
       <HeroImg />
+      <Chatbot />
       <Footer />
     </div>
   )
