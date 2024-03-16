@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import HeroImg from '../components/HeroImg';
 import Footer from '../components/Footer';
 import Chatbot from '../components/Chatbot';
+import PricingCard from '../components/PricingCard';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
 
       <Navbar />
       <HeroImg />
+      <PricingCard />
       <Chatbot />
       <Footer />
     </div>

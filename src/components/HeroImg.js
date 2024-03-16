@@ -24,13 +24,13 @@ const HeroImg = () => {
       <img className="into-img"
       src={IntroImg} alt="IntroImg" /></div>
         <div className="content">
-          <p > HI, I'M A PRIYANSHU</p>
-          <h1 >FrontEnd Developer.</h1>
+          <p > HI, WE ARE CAREERQUEST</p>
+          <h1 >Your Job Assistant</h1>
           <div className="me">
-            <Link to="/project" className="btn" >Projects</Link>
+            <Link to="/project" className="btn" >Login</Link>
           
           
-            <Link to="/Contact" className="btn-light" >Skills</Link>
+            <Link to="/Contact" className="btn-light" >Signup</Link>
           </div>
           <div className="links">
   <Link to="https://www.instagram.com/priyanshusgvm/" ><FaFacebook size={40} style={{ color:"#fff" , marginRight:'1rem' }} /></Link>
