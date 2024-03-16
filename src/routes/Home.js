@@ -4,6 +4,7 @@ import HeroImg from '../components/HeroImg';
 import Footer from '../components/Footer';
 import Chatbot from '../components/Chatbot';
 import PricingCard from '../components/PricingCard';
+import Feed from '../components/Feed';
 
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
 
       <Navbar />
       <HeroImg />
-      <PricingCard />
+      <Feed />
       <Chatbot />
       <Footer />
     </div>

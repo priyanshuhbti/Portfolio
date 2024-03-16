@@ -27,10 +27,10 @@ const HeroImg = () => {
           <p > HI, WE ARE CAREERQUEST</p>
           <h1 >Your Job Assistant</h1>
           <div className="me">
-            <Link to="/project" className="btn" >Login</Link>
+            <Link to="/Login" className="btn" >Login</Link>
           
           
-            <Link to="/Contact" className="btn-light" >Signup</Link>
+            <Link to="/Register" className="btn-light" >Signup</Link>
           </div>
           <div className="links">
   <Link to="https://www.instagram.com/priyanshusgvm/" ><FaFacebook size={40} style={{ color:"#fff" , marginRight:'1rem' }} /></Link>

@@ -17,10 +17,10 @@ const handleClick =() => setClick(!click);
         <Link to="/">Discover</Link>
       </li>
       <li>
-        <Link to="/project">Find Job </Link>
+        <Link to="/project">Career Toolbox  </Link>
       </li>
       <li>
-        <Link to="/about">Career Toolbox</Link>
+        <Link to="/about">Find Job</Link>
       </li>
       <li>
       <Link to="/Contact">Insights</Link>

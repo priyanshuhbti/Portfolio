@@ -10,6 +10,7 @@ import { Routes ,Route} from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import BusiReg from "./components/BusiRegi";
+import UserProfile from "./components/UserProf";
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <Route path="/Login" element={<Login/>} />
       <Route path="/Register" element={<Register/>} />
       <Route path="/Busy" element={<BusiReg/>} />
+      <Route path="/User" element={<UserProfile/>} />
 
       
 
