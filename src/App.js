@@ -11,6 +11,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import BusiReg from "./components/BusiRegi";
 import UserProfile from "./components/UserProf";
+import UserProf from "./components/UserProf";
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <Route path="/Login" element={<Login/>} />
       <Route path="/Register" element={<Register/>} />
       <Route path="/Busy" element={<BusiReg/>} />
-      <Route path="/User" element={<UserProfile/>} />
+      <Route path="/User" element={<UserProf/>} />
 
       
 
